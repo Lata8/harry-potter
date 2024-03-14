@@ -86,7 +86,9 @@ body{
     margin-bottom: 20px;
     padding: 20px 0 ;
 }
-
+.afuera{
+    display: none;
+}
 @media screen and (max-width:1500px){
     .inicio{
         margin: 0;

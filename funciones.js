@@ -22,6 +22,9 @@ function calculateScore() {
       }
     }
 
-    const resultContainer = document.getElementById('result');
-    resultContainer.innerHTML = `ACERTASTE ${score} DE ${Object.keys(answers).length}`;
+    
+    const result = document.getElementById('result');
+    result.innerHTML = `ACERTASTE ${score} DE ${Object.keys(answers).length}`;
+    const all = document.getElementById('todo');
+    all.classList.add("afuera")
 }
